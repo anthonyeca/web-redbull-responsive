@@ -50,6 +50,10 @@ header ul li a {
   text-decoration: none;
 }
 
+header ul li a:hover {
+    color: #e0e0e0;
+}
+
 .content {
     position: relative;
     width: 100%;
@@ -153,6 +157,10 @@ header ul li a {
     filter: invert(1);
     margin: 5px 0;
     transform: scale(0.6);
+}
+
+.sci li a:hover{
+    opacity: 80%;
 }
 
 footer{
